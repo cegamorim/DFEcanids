@@ -1,36 +1,35 @@
-# DFEcanids: Distribution of Fitness Effects in Dogs and Wolves
+# DFEcanids: Distribution of Fitness Effects in Canids
 
 This repository contains scripts and site frequency spectrum (SFS) data used in the analysis of the distribution of fitness effects (DFE) in domestic dogs and wolves. The analyses support the results presented in our manuscript (*Amorim et al., in review*, preprint--> https://www.biorxiv.org/content/10.1101/2024.11.13.623529v1).
 
-## 📁 Repository Contents
+## Repository Contents
 
-- `data/` — Site Frequency Spectrum (SFS) files for each population
-- `scripts/` — Scripts used for formatting, DFE inference, and visualization
+- `data/` — Site Frequency Spectrum (SFS) files for each population and a spreadsheet with data accession numbers and sources.
+- `scripts/` — Scripts used for computing SFS from VCF files, as well as for demographic and DFE inference.
 - `README.md` — This file
 
 Note that VCF files for exomes are available in https://datadryad.org/share/Xu8h6-72I-JWM1MFyKS2dMUwvIYYSiWV1SsgFHShJ3E
 
-## 🐕 Populations Included
+## Populations Included
 
 The following populations are represented in the SFS files:
 
 - **AW**: Arctic wolf  
-- **MW**: Nine wolves from different populations)  
+- **MW**: Grey wolves from different populations  
 - **BC**: Border collie  
 - **LB**: Labrador retriever  
 - **PG**: Pug  
 - **TM**: Tibetan Mastiff  
-- **MD**: 20 dogs from different breeds
+- **MD**: Dogs from different breeds
 
-Each population includes SFS files for synonymous and nonsynonymous mutations.
+## Citation
 
-## 📜 Citation
+If you use this repository, please cite the preprint (while the manuscript is in review):
 
-If you use this repository, please cite:
+**Evolutionary consequences of domestication on the selective effects of new amino acid changing mutations in canids**
+https://www.biorxiv.org/content/10.1101/2024.11.13.623529v1
+DOI: 10.1101/2024.11.13.623529
 
-**Amorim et al. (in review).** 
-*[DOI or preprint link will be added when available]*
-
-## 📬 Contact
+## Contact
 
 Eduardo Amorim – guerraamorim[at]gmail
